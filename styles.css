@@ -29,5 +29,81 @@ font-size:16px;
 border-radius: 3px;
 border-color: purple;
 }
+.second-part h2
+{
+    text-align: center;
+    text-decoration: solid;
+    margin-bottom: 100px;
+    
+}
+ul{
+    list-style: none;    
+}
+
+li .name{
+ width:60%;
+float:left;
+    display: block;
+    margin-top: 20px;
+    padding-left:10px;
+    font-size:30px;    
+    border-left:5px solid purple;
+    margin-right:10%;
+}
+li .delete
+{
+border: 1px solid grey;
+background: grey;
+padding: 10px 10px 10px 50px;
+font-size: 16px;
+display: inline-block;
+border-radius: 0 4px 4px 0;
+cursor: pointer;
+width: 100px;
+margin: 20px 0;
+color: white;
+
+}
+.delete:hover{
+background-color:red;
+color:white;
+}
+#addbook input
+{
+    width:80%;
+    max-width: 250px;
+    display: block;
+    border-width: 5px;box-sizing: content-box;height: 30px;
+    margin:20px 0;
+    font-size:16px;
+    border-radius: 3px;
+    border-color: green;
+    float:left;
+}
+#addbook button
+{
+/* display: inline-block;
+border-color: yellow;
+height:30px;
+border-width: 40px;s
+background-color: green;
+color: whitesmoke; */
+border: 1px solid green;
+background: green;
+padding: 10px 20px;
+font-size: 16px;
+display: inline-block;
+margin: 0;
+border-radius: 0 4px 4px 0;
+cursor: pointer;
+width: 100px;
+
+margin: 20px 0;
+border-left: 0;
+color: white;
+}
+
+
+
 
 
