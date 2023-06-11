@@ -1,0 +1,33 @@
+.first-part
+{
+    text-align: center;
+    text-decoration: solid;
+    padding:10%;
+
+}
+.first-part .div 
+{
+    border:100px;
+    align-self: center;
+    justify-content: center;
+}
+.first-part input
+{
+    /* align-self:center;
+width:300px;
+box-sizing: border-box;
+box-shadow: 5px; */
+align-self: center;
+    justify-content: center;
+    margin:30px auto;
+width:80%;
+max-width: 250px;
+display: block;
+border-width: 5px;box-sizing: content-box;height: 30px;
+box-shadow: 20px;
+font-size:16px;
+border-radius: 3px;
+border-color: purple;
+}
+
+
