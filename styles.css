@@ -3,6 +3,7 @@
     text-align: center;
     text-decoration: solid;
     padding:10%;
+    background-color: grey;
 
 }
 .first-part .div 
@@ -68,8 +69,13 @@ color: white;
 background-color:red;
 color:white;
 }
+#addbook
+{
+    margin: 0 auto;
+}
 #addbook input
 {
+    margin: 0 auto;
     width:80%;
     max-width: 250px;
     display: block;
@@ -102,6 +108,22 @@ margin: 20px 0;
 border-left: 0;
 color: white;
 }
+#addbook:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+#hide
+{
+    width:50px;
+}
+#addbook label{
+   
+    font-size: 30px;
+    line-height: 50px;
+    /* margin:20px; */
+}
+
 
 
 

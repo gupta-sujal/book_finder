@@ -6,7 +6,7 @@
     <link href="styles.css" rel="stylesheet" />
     <title>BOOK FINDER</title>
 </head>
-
+<script src="script.js" defer></script>
 <body>
     <div class="first-part">
         <div>
@@ -45,8 +45,11 @@
         </div>
 
         <div>
+            <input type="checkbox" id="hide">
+            <label for="hide">Hide all books</label>
             <form id="addbook">
-                <input type="text" id="addbook" palceholder="enter your fav book">
+                <!-- <br> -->
+                <input type="text" id="addbook" placeholder="enter your fav book">
                 <button>Add</button>
             </form>
         </div>
