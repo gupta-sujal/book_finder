@@ -62,3 +62,24 @@ function clearInput()
 {
     document.getElementById("input").reset();
 }
+
+const search=document.forms['searchbook'].querySelector("input");
+search.addEventListener("keyup",function(e)
+{
+
+    const term= e.target.value.toLowerCase();
+    const books=listofbooks.getElementsByTagName("li");
+    Array.from(books).forEach(function(book)
+    {
+        const title=book.firstElementChild.textContent;
+        if(title.toLowerCase().includes(term))
+        {
+            book.style.display='block';
+        }
+        else
+        {
+            book.style.display='none';
+        }
+
+    });
+});

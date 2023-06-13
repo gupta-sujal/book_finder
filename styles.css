@@ -22,11 +22,11 @@ align-self: center;
     justify-content: center;
     margin:30px auto;
 width:80%;
-max-width: 250px;
+max-width: 350px;
 display: block;
-border-width: 5px;box-sizing: content-box;height: 30px;
+border-width: 5px;box-sizing: content-box;height: 40px;
 box-shadow: 20px;
-font-size:16px;
+font-size:24px;
 border-radius: 3px;
 border-color: purple;
 }
@@ -71,7 +71,8 @@ color:white;
 }
 #addbook
 {
-    margin: 0 auto;
+    width:400px;
+    margin:auto;
 }
 #addbook input
 {
@@ -122,6 +123,11 @@ color: white;
     font-size: 30px;
     line-height: 50px;
     /* margin:20px; */
+}
+.adding
+{
+    max-width: 400px;
+    margin: auto;
 }
 
 
