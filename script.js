@@ -41,6 +41,8 @@ addbook.addEventListener("submit",function(e)
     delbook.className="delete";
     li.appendChild(bookname);li.appendChild(delbook);
     listofbooks.appendChild(li);
+    const addbox=document.querySelector("#addbook input");
+    addbox.textContent='';
     // addbook.querySelector('input[type="text"]').textContent=' ';
 });
 
@@ -56,3 +58,7 @@ else
     listofbooks.style.display='initial';
 }
 });
+function clearInput()
+{
+    document.getElementById("input").reset();
+}
